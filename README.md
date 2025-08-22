@@ -4,3 +4,4 @@ This repository contains personal notes and code snippets for data analysis, foc
 ## SQL
 ## Python
 ## R
+* [Slopegraphs](https://github.com/DavidRommel/Notes/tree/main/R_Slopegraphs/README.md)
