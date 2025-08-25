@@ -1,4 +1,4 @@
-## Generate Row Numbers
+## Create Row Numbers
 Use the `row_number() OVER ()` function to generate unique row numbers for each row of a query.  Adding a row 
 number column is useful for data cleaning, since it allows you to evaluate and keep/remove individual rows.
 ```sql
