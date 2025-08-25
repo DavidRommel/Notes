@@ -11,6 +11,7 @@ This repository contains personal notes and code snippets for data analysis, foc
 * **R:** This section includes notes on key R packages like **dplyr** for data manipulation and **ggplot2** for data visualization. It covers data wrangling techniques, statistical analysis, and creating high-quality plots.
   * [Slopegraphs](https://github.com/DavidRommel/Notes/tree/main/R_Slopegraphs/README.md)
   * [Factors](https://github.com/DavidRommel/Notes/blob/main/R_Factors/README.md)
+  * [Long and Wide Data](https://github.com/DavidRommel/Notes/blob/main/R_Long_Wide_Data/README.md)
 
 * **SQL:** Notes here focus on structuring and querying relational databases. They cover foundational concepts like `SELECT`, `FROM`, and `WHERE` clauses, as well as more complex operations such as joins, subqueries, and window functions. The notes are applicable to various SQL dialects (e.g., SQLite, PostgreSQL).
 
