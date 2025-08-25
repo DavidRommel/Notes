@@ -14,6 +14,7 @@ This repository contains personal notes and code snippets for data analysis, foc
   * [Long and Wide Data](https://github.com/DavidRommel/Notes/blob/main/R_Long_Wide_Data/README.md)
 
 * **SQL:** Notes here focus on structuring and querying relational databases. They cover foundational concepts like `SELECT`, `FROM`, and `WHERE` clauses, as well as more complex operations such as joins, subqueries, and window functions. The notes are applicable to various SQL dialects (e.g., SQLite, PostgreSQL).
+  * [Create Row Numbers](https://github.com/DavidRommel/Notes/blob/main/SQL_Create_Row_Numbers/README.md)
 
 ---
 
