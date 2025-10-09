@@ -7,6 +7,7 @@ This repository contains personal notes and code snippets for data analysis, foc
 ### **Key Sections**
 
 * **Python:** Notes cover essential libraries for data manipulation and visualization, including **pandas**, **NumPy**, and **Matplotlib/Seaborn**. Topics range from basic data cleaning and transformation to more advanced topics like time series analysis and machine learning fundamentals.
+   * [Slopegraphs](https://github.com/DavidRommel/Notes/blob/main/Python_Slopegraphs/README.md)
 
 * **R:** This section includes notes on key R packages like **dplyr** for data manipulation and **ggplot2** for data visualization. It covers data wrangling techniques, statistical analysis, and creating high-quality plots.
   * [Slopegraphs](https://github.com/DavidRommel/Notes/tree/main/R_Slopegraphs/README.md)
