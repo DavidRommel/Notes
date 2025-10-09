@@ -607,3 +607,120 @@ df1_long
     </tr>
   </tbody>
 </table>
+
+
+### Rearrange the rows
+---
+
+
+```python
+# Create a list with the category for each year on successive rows 
+# 0,7,1,8,2,9,3,10,4,11,5,12,6,13
+index_list = []
+for i in range(7): # 0 - 6
+    index_list.append(i)
+    index_list.append(i+7)
+```
+
+
+```python
+df1_long.reindex(index = index_list).reset_index(drop = True) # reindex() can reorder columns as well as rows
+```
+
+
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>category</th>
+      <th>year</th>
+      <th>percent_favorable</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Peers</td>
+      <td>2014</td>
+      <td>85</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Peers</td>
+      <td>2015</td>
+      <td>91</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Culture</td>
+      <td>2014</td>
+      <td>80</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Culture</td>
+      <td>2015</td>
+      <td>96</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Work Environment</td>
+      <td>2014</td>
+      <td>76</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>Work Environment</td>
+      <td>2015</td>
+      <td>75</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>Leadership</td>
+      <td>2014</td>
+      <td>59</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>Leadership</td>
+      <td>2015</td>
+      <td>62</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>Career development</td>
+      <td>2014</td>
+      <td>49</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>Career development</td>
+      <td>2015</td>
+      <td>33</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>Rewards &amp; recognition</td>
+      <td>2014</td>
+      <td>41</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>Rewards &amp; recognition</td>
+      <td>2015</td>
+      <td>45</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>Perf management</td>
+      <td>2014</td>
+      <td>33</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>Perf management</td>
+      <td>2015</td>
+      <td>42</td>
+    </tr>
+  </tbody>
+</table>
