@@ -41,22 +41,6 @@ df.head()
 ```
 
 
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -88,9 +72,6 @@ df.head()
     </tr>
   </tbody>
 </table>
-</div>
-
-
 
 
 ```python
@@ -129,7 +110,7 @@ plt.show()
 
 
     
-![png](output_7_0.png)
+![png](Images/output_7_0.png)
     
 
 
@@ -194,7 +175,7 @@ plt.show()
 
 
     
-![png](output_13_0.png)
+![png](Images/output_13_0.png)
     
 
 
@@ -207,22 +188,6 @@ df.head()
 ```
 
 
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -259,9 +224,6 @@ df.head()
     </tr>
   </tbody>
 </table>
-</div>
-
-
 
 
 ```python
@@ -278,7 +240,7 @@ plt.show()
 
 
     
-![png](output_16_0.png)
+![png](Images/output_16_0.png)
     
 
 
@@ -296,22 +258,6 @@ df
 ```
 
 
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -348,9 +294,6 @@ df
     </tr>
   </tbody>
 </table>
-</div>
-
-
 
 
 ```python
@@ -360,7 +303,7 @@ plt.show()
 
 
     
-![png](output_19_0.png)
+![png](Images/output_19_0.png)
     
 
 
