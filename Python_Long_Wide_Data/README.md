@@ -427,7 +427,7 @@ pd.pivot_table(data = df_long,
 
 ### Survey data example
 ---
-* The aggregated data would like be in a wide format similar to below
+* The aggregated data would likely be in a wide format similar to below
 * Convert from wide to long format in order to create a slope graph
 
 
