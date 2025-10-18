@@ -10,6 +10,13 @@ This repository contains personal notes and code snippets for data analysis, foc
    * [Slopegraphs](https://github.com/DavidRommel/Notes/blob/main/Python_Slopegraphs/README.md)
    * [Categorical Data](https://github.com/DavidRommel/Notes/blob/main/Python_Categorical_Data/README.md)
    * [Long and Wide Data](https://github.com/DavidRommel/Notes/blob/main/Python_Long_Wide_Data/README.md)
+   * Data Manipulation
+   * Data Cleaning
+   * Data Visualization
+   * Statistical Testing
+   * Linear Regression
+   * Multiple Regression
+   * Logistic Regression
 
 * **R:** This section includes notes on key R packages like **dplyr** for data manipulation and **ggplot2** for data visualization. It covers data wrangling techniques, statistical analysis, and creating high-quality plots.
   * [Slopegraphs](https://github.com/DavidRommel/Notes/tree/main/R_Slopegraphs/README.md)
