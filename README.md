@@ -18,6 +18,8 @@ This repository contains personal notes and code snippets for data analysis, foc
    * Linear Regression
    * Multiple Regression
    * Logistic Regression
+   * Supervised Machine Learning
+   * Unsupervised Machine Learning
 
 * **R:** This section includes notes on key R packages like **dplyr** for data manipulation and **ggplot2** for data visualization. It covers data wrangling techniques, statistical analysis, and creating high-quality plots.
   * Data Manipulation
