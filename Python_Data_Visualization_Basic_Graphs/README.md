@@ -3,12 +3,12 @@
 ## Table of Contents
 * [Sample Datasets](#sample-datasets)
 * [Most Commonly Used Plot Types](#most-commonly-used-plot-types)
-    * [Scatter plot](#scatter-plot)
-    * [Line Plots](#line-plots)
+    * [Scatter Plot](#scatter-plot)
+    * [Line Plot](#line-plot)
     * [Bar Plot](#bar-plot)
-        * [Horizontal bar plot](#horizontal-bar-plot)
+        * [Horizontal Bar Plot](#horizontal-bar-plot)
         * [Grouped Bar Plot](#grouped-bar-plot)
-        * [Stacked bar chart](#stacked-bar-chart)
+        * [Stacked Bar Plot](#stacked-bar-plot)
     * [Count Plot](#count-plot)
     * [Histogram](#histogram)
     * [Density Plot](#density-plot)
@@ -30,12 +30,12 @@
     * [Add annotations](#add-annotations)
     * [Annotate Text Above A Barplot](#annotate-text-above-a-barplot)
     * [Place Legend Outside The Plot To The Right](#place-legend-outside-the-plot-to-the-right)
-    * [Add text outside the plot](#add-text-outside-the-plot)
+    * [Add Text Outside The Plot](#add-text-outside-the-plot)
     * [Save Image](#save-image)
-* [Color palettes](#color-palettes)
-    * [Display the hexadecimal value of the first color of the current palette](#display-the-hexadecimal-value-of-the-first-color-of-the-current-palette)
-    * [Create a custom palette](#create-a-custom-palette)
-    * [Use an included palette](#use-an-included-palette)
+* [Color Palettes](#color-palettes)
+    * [Display The Hexadecimal Value Of The First Color Of The Current Palette](#display-the-hexadecimal-value-of-the-first-color-of-the-current-palette)
+    * [Create A Custom Palette](#create-a-custom-palette)
+    * [Use An Included Palette](#use-an-included-palette)
 
 ---
 
@@ -124,7 +124,7 @@ sns.get_dataset_names() # display available datasets
     * `pairplot()` function
 
 
-### Scatter plot
+### Scatter Plot
 * used to visualize the relationship between two continuous variables
 * each point on the plot represents a single data point
 
@@ -241,7 +241,7 @@ plt.show()
     
 
 
-### Line Plots
+### Line Plot
 * used to visualize trends in data over time or other continuous variables
 * each data point is connected by a line, creating a smooth curve
 
@@ -558,7 +558,7 @@ plt.show()
     
 
 
-#### Horizontal bar plot
+#### Horizontal Bar Plot
 * Simply swap x and y to change the orientation of the bar plot.
 * The `orient` parameter should be able to control this as well.
     * `'v'` vertical
@@ -642,7 +642,7 @@ plt.show()
     
 
 
-#### Stacked bar chart
+#### Stacked Bar Plot
 * There is no direct method to do this in Seaborn
 * The total bar can be drafted first and the lower bar drafted on top of that one
 * The legend then needs to be manually created
@@ -1385,7 +1385,7 @@ plt.show()
 
 ---
 
-## Group plots
+## Group Plots
 
 ### Pairplot
 * multiple pairwise scatter plots are displayed in a matrix format
@@ -1600,7 +1600,7 @@ plt.show()
     
 
 
-### Add annotations
+### Add Annotations
 
 You can use simple string codes for marker shapes: 
 
@@ -1689,7 +1689,7 @@ plt.show()
     
 
 
-### Add text outside the plot
+### Add Text Outside The Plot
 
 
 ```python
@@ -1722,7 +1722,7 @@ plt.show()
 
 ---
 
-## Color palettes
+## Color Palettes
 
 
 ```python
@@ -1736,7 +1736,7 @@ sns.color_palette()
 
 
 
-### Display the hexadecimal value of the first color of the current palette
+### Display The Hexadecimal Value Of The First Color Of The Current Palette
 
 
 ```python
@@ -1750,7 +1750,7 @@ sns.color_palette().as_hex()[0]
 
 
 
-### Create a custom palette
+### Create A Custom Palette
 
 
 ```python
@@ -1784,7 +1784,7 @@ plt.show()
     
 
 
-### Use an included palette
+### Use An Included Palette
 
 
 ```python
