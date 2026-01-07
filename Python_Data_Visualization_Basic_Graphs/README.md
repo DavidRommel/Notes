@@ -27,7 +27,7 @@
     * [Plot With Seaborn - Specifying The Axis](#plot-with-seaborn---specifying-the-axis)
     * [Customize With Matplotlib (Referencing Axis)](#customize-with-matplotlib-referencing-axis)
     * [Customize With Matplotlib (No Axis)](#customize-with-matplotlib-no-axis)
-    * [Add annotations](#add-annotations)
+    * [Add Annotations](#add-annotations)
     * [Annotate Text Above A Barplot](#annotate-text-above-a-barplot)
     * [Place Legend Outside The Plot To The Right](#place-legend-outside-the-plot-to-the-right)
     * [Add Text Outside The Plot](#add-text-outside-the-plot)
