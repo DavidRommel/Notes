@@ -16,11 +16,11 @@
     * [Violin Plot](#violin-plot)
     * [Heatmap](#heatmap)
 * [Group plots](#group-plots)
-    * [Pair Plots](#pair-plots)
-    * [Joint plot](#joint-plot)
-    * [Facet Grids](#facet-grids)
+    * [Pairplot](#pairplot)
+    * [Jointplot](#jointplot)
+    * [Facetgrid](#facetgrid)
     * [Subplots](#subplots)
-    * [relplot](#relplot)
+    * [Relplot](#relplot)
 * [Customizing With Matplotlib](#customizing-with-matplotlib)
     * [Adjust Plot Size](#adjust-plot-size)
     * [Create Figure And Axis With Matplotlib](#create-figure-and-axis-with-matplotlib)
@@ -1387,7 +1387,7 @@ plt.show()
 
 ## Group plots
 
-### Pair Plots
+### Pairplot
 * multiple pairwise scatter plots are displayed in a matrix format
 * Each scatter plot shows the relationship between two variables
 * diagonal plots show the distribution of the individual variables
@@ -1421,7 +1421,7 @@ plt.show()
     
 
 
-### Joint plot
+### Jointplot
 * combines two different plots in one visualization
     * scatter plot
         * shows the relationship between two variables
@@ -1441,7 +1441,7 @@ plt.show()
     
 
 
-### Facet Grids
+### FacetGrid
 * allows you to visualize the distribution of one variable
     * as well as the relationship between two variables
     * across levels of additional categorical variables
@@ -1485,7 +1485,7 @@ plt.tight_layout()
     
 
 
-### relplot
+### Relplot
 A figure-level interface for visualizing statistical relationships between two variables using either scatter plots (default) or line plots
 
 
