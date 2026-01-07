@@ -25,8 +25,8 @@
     * [Adjust Plot Size](#adjust-plot-size)
     * [Create Figure And Axis With Matplotlib](#create-figure-and-axis-with-matplotlib)
     * [Plot With Seaborn - Specifying The Axis](#plot-with-seaborn---specifying-the-axis)
-    * [Customize with Matplotlib (Referencing Axis)](#customize-with-matplotlib-referencing-axis)
-    * [Customize with Matplotlib (No Axis)](#customize-with-matplotlib-no-axis)
+    * [Customize With Matplotlib (Referencing Axis)](#customize-with-matplotlib-referencing-axis)
+    * [Customize With Matplotlib (No Axis)](#customize-with-matplotlib-no-axis)
     * [Add annotations](#add-annotations)
     * [Annotate Text Above A Barplot](#annotate-text-above-a-barplot)
     * [Place Legend Outside The Plot To The Right](#place-legend-outside-the-plot-to-the-right)
@@ -1558,7 +1558,7 @@ plt.show()
     
 
 
-### Customize with Matplotlib (Referencing Axis)
+### Customize With Matplotlib (Referencing Axis)
 
 
 ```python
@@ -1580,7 +1580,7 @@ plt.show()
     
 
 
-### Customize with Matplotlib (No Axis)
+### Customize With Matplotlib (No Axis)
 
 
 ```python
