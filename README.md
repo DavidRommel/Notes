@@ -14,7 +14,7 @@ This repository contains personal notes and code snippets for data analysis, foc
    * Data Visualization (Basic Graphs)
    * Data Visualization (Choropleth Maps)
    * [Data Visualization (Slopegraphs)](https://github.com/DavidRommel/Notes/blob/main/Python_Slopegraphs/README.md)
-   * Basic Statistics
+   * [Basic Statistics](https://github.com/DavidRommel/Notes/blob/main/Python_Basic_Statistics/README.md)
    * Advanced Statistics
    * Linear Regression
    * Multiple Regression
