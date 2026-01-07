@@ -12,7 +12,7 @@ This repository serves as a personal knowledge base for statistical analysis, co
 * [Distributions & The Empirical Rule](#distributions--the-empirical-rule)
     * [Poisson Distribution](#poisson-distribution)
     * [Binomial Distribution](#binomial-distribution)
-    * [The Empirical Rule (68-95-99.7)](#the-empirical-rule-68-95-997)
+    * [The Empirical Rule](#the-empirical-rule)
 * [Z-Scores & Outlier Detection](#z-scores--outlier-detection)
     * [Calculating Standard Deviation](#calculating-standard-deviation)
 * [Sampling & Standard Error](#sampling--standard-error)
@@ -98,7 +98,7 @@ print(f"Probability of exactly 3 smokers in 10 customers: {prob_3_smokers:.4f}")
     Probability of exactly 3 smokers in 10 customers: 0.2310
 
 
-### The Empirical Rule (68-95-99.7)
+### The Empirical Rule
 
 In a normal distribution:
 * 68% of values fall within $\pm 1$ standard deviation ($\sigma$).
