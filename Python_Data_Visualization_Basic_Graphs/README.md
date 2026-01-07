@@ -15,7 +15,7 @@
     * [Box Plot](#box-plot)
     * [Violin Plot](#violin-plot)
     * [Heatmap](#heatmap)
-* [Group plots](#group-plots)
+* [Group Plots](#group-plots)
     * [Pairplot](#pairplot)
     * [Jointplot](#jointplot)
     * [Facetgrid](#facetgrid)
