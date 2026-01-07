@@ -11,7 +11,7 @@ This repository contains personal notes and code snippets for data analysis, foc
    * Data Cleaning
    * [Categorical Data](https://github.com/DavidRommel/Notes/blob/main/Python_Categorical_Data/README.md)
    * [Long and Wide Data](https://github.com/DavidRommel/Notes/blob/main/Python_Long_Wide_Data/README.md)
-   * Data Visualization (Basic Graphs)
+   * [Data Visualization (Basic Graphs)](https://github.com/DavidRommel/Notes/blob/main/Python_Data_Visualization_Basic_Graphs/README.md)
    * Data Visualization (Choropleth Maps)
    * [Data Visualization (Slopegraphs)](https://github.com/DavidRommel/Notes/blob/main/Python_Slopegraphs/README.md)
    * [Basic Statistics](https://github.com/DavidRommel/Notes/blob/main/Python_Basic_Statistics/README.md)
