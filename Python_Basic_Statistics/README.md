@@ -75,7 +75,7 @@ from scipy import stats
 # Example: If the average number of customers per day is 10 (lambda=10)
 # What is the probability of exactly 12 customers visiting today?
 prob_12 = stats.poisson.pmf(k=12, mu=10)
-print(f"Probability of exactly 12 customers: {prob_12:.4f}")
+print('Probability of exactly 12 customers: {:.4f}'.format(prob_12))
 ```
 
     Probability of exactly 12 customers: 0.0948
@@ -92,7 +92,7 @@ p_smoker = (tips['smoker'] == 'Yes').mean() # Probability of a customer being a 
 
 # If 10 customers walk in, what is the probability that exactly 3 are smokers?
 prob_3_smokers = stats.binom.pmf(k=3, n=10, p=p_smoker)
-print(f"Probability of exactly 3 smokers in 10 customers: {prob_3_smokers:.4f}")
+print('Probability of exactly 3 smokers in 10 customers: {:.4f}'.format(prob_3_smokers))
 ```
 
     Probability of exactly 3 smokers in 10 customers: 0.2310
