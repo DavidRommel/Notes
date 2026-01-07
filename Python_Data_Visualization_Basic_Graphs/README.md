@@ -1613,7 +1613,9 @@ You can use simple string codes for marker shapes:
 * \* star
 * D diamond
 * X thick x (filled)
-* \+ plus  
+* \+ plus
+* | vertical line
+* _ horizontal line
 
 
 ```python
