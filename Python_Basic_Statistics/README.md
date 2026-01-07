@@ -50,7 +50,7 @@ The probability of an event occurring given that another event has already occur
 
 ### Bayes' Theorem
 
-A method for updating probabilities as more evidence becomes available.$$P(A|B) = \frac{P(B|A) \times P(A)}{P(B)}$$
+A method for updating probabilities as more evidence becomes available. $$P(A|B) = \frac{P(B|A) \times P(A)}{P(B)}$$
 
 > *Example:* Calculating the chance of rain given that the day started off cloudy, using the overall rain probability, the percentage of cloudy days, and the percentage of rainy days that start cloudy.   
 
