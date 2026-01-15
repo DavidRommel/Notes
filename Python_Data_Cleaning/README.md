@@ -1,7 +1,5 @@
 # Data Cleaning
 
-This repository serves as a quick-reference guide for Python data analysis concepts, focusing on data exploration, datetime manipulation, data cleaning, and outlier detection. All examples utilize standard datasets from the Seaborn library.
-
 ## Table of Contents
 * [Environment Setup](#environment-setup)
 * [Data Exploration & Inspection](#data-exploration--inspection)
