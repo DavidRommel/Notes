@@ -1209,7 +1209,7 @@ filtered_penguins = penguins[penguins['island'].isin(islands_to_check)]
 excluded_penguins = penguins[~penguins['island'].isin(islands_to_check)]
 ```
 
-#### Using `isin()` to check for mispelled month names
+#### Using `isin()` to check for misspelled month names
 
 
 ```python
@@ -1255,7 +1255,7 @@ date_df[~date_df['date'].isin(month_spellings)]
 
 
 
-#### Using sets to identify mispelled month names
+#### Using sets to identify misspelled month names
 
 
 ```python
