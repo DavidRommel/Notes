@@ -1,4 +1,4 @@
-### **Data Analysis Notes Repository**
+### **Data Analytics Notes Repository**
 
 This repository contains personal notes and code snippets for data analysis, focusing on four core languages: **Python**, **R**, **SQL**, and **DAX**. The purpose of this collection is to serve as a quick reference guide for common tasks, techniques, and concepts in the data analysis workflow.
 
