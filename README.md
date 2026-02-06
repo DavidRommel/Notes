@@ -37,3 +37,4 @@ This repository contains personal notes and code snippets for data analysis, foc
 
 **DAX** 
 * Basic Filtering and Aggregation
+* Time Intelligence
