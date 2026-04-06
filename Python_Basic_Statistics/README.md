@@ -25,6 +25,7 @@ This repository serves as a personal knowledge base for statistical analysis, co
     * [Implementation Reference](#implementation-reference)
     * [Example 1: One-Sample T-Test](#example-1-one-sample-t-test)
     * [Example 2: Two-Sample T-Test (Independent)](#example-2-two-sample-t-test-independent)
+    * [Example 3: One-Sample Z-Test](#example-3-one-sample-z-test)
 
 ---
 
@@ -272,3 +273,49 @@ print('P-value: {:.4f}'.format(p_val))
 ```
 
     P-value: 0.0000
+
+
+### Example 3: One-Sample Z-Test
+
+**$z$-test statistic: $$z = \frac{\bar{x} - \mu}{\sigma / \sqrt{n}}$$**
+* $\bar{x}$ is the sample mean
+* $\mu$ is the population mean
+* $\sigma$ is population standard deviation
+* $n$ is the sample size  
+
+**Left-Tailed Test**
+* **Hypothesis:** $H_a: \mu < \mu_0$  
+* **Logic:** You want the area to the **left** of your $z$-score.  
+* **Calculation:** $P(Z \le z)$  
+
+**Right-Tailed Test**
+* **Hypothesis:** $H_a: \mu > \mu_0$  
+* **Logic:** You want the area to the **right** of your $z$-score.  
+* **Calculation:** $1 - P(Z \le z)$  
+
+**Two-Tailed Test**
+* **Hypothesis:** $H_a: \mu \neq \mu_0$  
+* **Logic:** You want the total area in **both tails**.  
+* **Calculation:** $2 \times P(Z \ge |z|)$ (Find the area of one tail and double it).  
+
+```python
+from scipy import stats
+
+sample_mean = 89.1
+pop_mean = 85
+pop_std = 3.5  # Z-tests assume known population standard deviation
+n = 10
+
+# Calculate Z-score
+z_score = (sample_mean - pop_mean) / (pop_std / np.sqrt(n))
+
+
+# Left-tailed p-value
+p_left = stats.norm.cdf(z_score)
+
+# Right-tailed p-value
+p_right = 1 - stats.norm.cdf(z_score)
+
+# Two-tailed p-value
+p_two = 2 * (1 - stats.norm.cdf(abs(z_score)))
+```
