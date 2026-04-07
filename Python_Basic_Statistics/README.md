@@ -236,6 +236,13 @@ print('Margin of error: {:.2f}%'.format(moe_mean))
    * $\sigma$ is population standard deviation
    * $n$ is the sample size  
 
+* T-tests do not apply to **proportions**, conduct a two-sample z-test to compare two population proportions.  
+   $\Large z = \frac{\hat{p}_1 - \hat{p}_2}{\sqrt{\hat{p}_0(1 - \hat{p}_0)\left(\frac{1}{n_1} + \frac{1}{n_2}\right)}}$
+   * Numerator: $\hat{p}_1 - \hat{p}_2$ represents the difference between the two sample proportions.
+   * Denominator: The square root contains the standard error of the difference.
+   * $\hat{p}_0$: This is the pooled proportion, calculated from both samples combined.
+   * $n_1, n_2$: These are the respective sample sizes.
+
 **Left-Tailed Test**
 * **Hypothesis:** $H_a: \mu < \mu_0$  
 * **Logic:** You want the area to the **left** of your $z$-score.  
@@ -260,6 +267,9 @@ print('Margin of error: {:.2f}%'.format(moe_mean))
    * $\bar{X_1}$ and $\bar{X_2}$ are the sample means of your two groups
    * $n_1$ and $n_2$ are the sample sizes of your two groups
    * $s_1$ and $s_2$ are the sample standard deviations of your two groups
+
+ #### Z-test (Proportions)
+
 
 ### Error Types
 
