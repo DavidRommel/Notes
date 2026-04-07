@@ -221,6 +221,41 @@ print('Margin of error: {:.2f}%'.format(moe_mean))
 ---
 
 ## Hypothesis Testing
+### Test Types
+#### Z-test
+* Used when the population standard deviation is **known**.
+* The test statistic is a Z-score, which indicates how many standard deviations below or above the population mean a data point is.
+
+   $\Large z = \frac{\bar{x} - \mu}{\frac{\sigma}{\sqrt{n}}}$
+   * $\bar{x}$ is the sample mean
+   * $\mu$ is the population mean
+   * $\sigma$ is population standard deviation
+   * $n$ is the sample size  
+
+**Left-Tailed Test**
+* **Hypothesis:** $H_a: \mu < \mu_0$  
+* **Logic:** You want the area to the **left** of your $z$-score.  
+* **Calculation:** $P(Z \le z)$  
+
+**Right-Tailed Test**
+* **Hypothesis:** $H_a: \mu > \mu_0$  
+* **Logic:** You want the area to the **right** of your $z$-score.  
+* **Calculation:** $1 - P(Z \le z)$  
+
+**Two-Tailed Test**
+* **Hypothesis:** $H_a: \mu \neq \mu_0$  
+* **Logic:** You want the total area in **both tails**.  
+* **Calculation:** $2 \times P(Z \ge |z|)$ (Find the area of one tail and double it).  
+
+#### T-Test
+* Used when the population standard deviation is **unknown**.
+* Population standard deviation is usually unknown and needs to be estimated from the data.
+* The test statistic is a T-score that is based on the T-distribution.  
+
+   $\Large t = \frac{(\bar{X_1}-\bar{X_2})}{\sqrt{\frac{S_1^2}{n_1}+\frac{S_2^2}{n_2}}}$
+   * $\bar{X_1}$ and $\bar{X_2}$ are the sample means of your two groups
+   * $n_1$ and $n_2$ are the sample sizes of your two groups
+   * $s_1$ and $s_2$ are the sample standard deviations of your two groups
 
 ### Error Types
 
@@ -276,28 +311,6 @@ print('P-value: {:.4f}'.format(p_val))
 
 
 ### Example 3: One-Sample Z-Test
-
-**$z$-test statistic: $$z = \frac{\bar{x} - \mu}{\sigma / \sqrt{n}}$$**
-* $\bar{x}$ is the sample mean
-* $\mu$ is the population mean
-* $\sigma$ is population standard deviation
-* $n$ is the sample size  
-
-**Left-Tailed Test**
-* **Hypothesis:** $H_a: \mu < \mu_0$  
-* **Logic:** You want the area to the **left** of your $z$-score.  
-* **Calculation:** $P(Z \le z)$  
-
-**Right-Tailed Test**
-* **Hypothesis:** $H_a: \mu > \mu_0$  
-* **Logic:** You want the area to the **right** of your $z$-score.  
-* **Calculation:** $1 - P(Z \le z)$  
-
-**Two-Tailed Test**
-* **Hypothesis:** $H_a: \mu \neq \mu_0$  
-* **Logic:** You want the total area in **both tails**.  
-* **Calculation:** $2 \times P(Z \ge |z|)$ (Find the area of one tail and double it).  
-
 ```python
 from scipy import stats
 
