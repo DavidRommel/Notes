@@ -315,12 +315,19 @@ print('P-value: {:.4f}'.format(p_val))
 
 
 #### Example 3: One-Sample Z-Test
+A premium coffee roaster claims that their "Single Origin Espresso" bags have a mean weight of $85\text{ g}$, with a known population standard deviation of $3.5\text{ g}$. A quality control manager suspects the machine might be overfilling the bags and selects a random sample of $n = 10$ bags, finding a sample mean weight of $89.1\text{ g}$.  
+
+Determine the statistical significance of this weight deviation for three different hypotheses:
+* **Left-tailed:** Is the weight significantly *less* than $85\text{ g}$?
+* **Right-tailed:** Is the weight significantly *greater* than $85\text{ g}$?
+* **Two-tailed:** Is the weight significantly *different* (either higher or lower) than $85\text{ g}$?
+
 ```python
 from scipy import stats
 
-sample_mean = 89.1
 pop_mean = 85
 pop_std = 3.5  # Z-tests assume known population standard deviation
+sample_mean = 89.1
 n = 10
 
 # Calculate Z-score
