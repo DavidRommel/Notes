@@ -279,7 +279,7 @@ print('Margin of error: {:.2f}%'.format(moe_mean))
 Used to determine if the sample mean of a variable differs from a specific value. In this example, we test if the mean flipper length of Adelie penguins is equal to 190 mm.
 * **Null Hypothesis ($H_0$):** The population mean is equal to a specific, hypothesized value, meaning there's no significant difference between the true population mean and the known or proposed value
 * Use the `alternative` parameter of the `ttest_1samp()` function for left-tailed, right-tailed, or two-sided tests.
-   * `two-sided`, `less` (left-tailed), `greater` (right-tailed)
+   * `two-sided` (default, two-tailed), `less` (left-tailed), `greater` (right-tailed)
 
 
 ```python
