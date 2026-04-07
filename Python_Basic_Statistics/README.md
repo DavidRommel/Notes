@@ -249,7 +249,7 @@ print('Margin of error: {:.2f}%'.format(moe_mean))
 
 #### T-Test
 * Used when the population standard deviation is **unknown**.
-* Population standard deviation is usually unknown and needs to be estimated from the data.
+   * Population standard deviation is usually unknown and needs to be estimated from the data.
 * The test statistic is a T-score that is based on the T-distribution.  
 
    $\Large t = \frac{(\bar{X_1}-\bar{X_2})}{\sqrt{\frac{S_1^2}{n_1}+\frac{S_2^2}{n_2}}}$
