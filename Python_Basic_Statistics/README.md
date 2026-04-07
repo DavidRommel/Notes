@@ -26,9 +26,10 @@ This repository serves as a personal knowledge base for statistical analysis, co
        * [T-Test](#t-test)
     * [Error Types](#error-types)
     * [Implementation Reference](#implementation-reference)
-    * [Example 1: One-Sample T-Test](#example-1-one-sample-t-test)
-    * [Example 2: Two-Sample T-Test (Independent)](#example-2-two-sample-t-test-independent)
-    * [Example 3: One-Sample Z-Test](#example-3-one-sample-z-test)
+    * [Examples](#examples)
+       * [Example 1: One-Sample T-Test](#example-1-one-sample-t-test)
+       * [Example 2: Two-Sample T-Test (Independent)](#example-2-two-sample-t-test-independent)
+       * [Example 3: One-Sample Z-Test](#example-3-one-sample-z-test)
 
 ---
 
@@ -272,7 +273,8 @@ print('Margin of error: {:.2f}%'.format(moe_mean))
 | **One-Sample T-test** | Compare sample mean to a hypothesized value ($H_0: \mu = x$). | `stats.ttest_1samp()` |
 | **Two-Sample T-test** | Compare means of two independent groups. | `stats.ttest_ind()` |
 
-### Example 1: One-Sample T-Test
+### Examples
+#### Example 1: One-Sample T-Test
 
 Used to determine if the sample mean of a variable differs from a specific value. In this example, we test if the mean flipper length of Adelie penguins is equal to 190 mm.
 * **Null Hypothesis ($H_0$):** The population mean is equal to a specific, hypothesized value, meaning there's no significant difference between the true population mean and the known or proposed value
@@ -291,8 +293,7 @@ print('P-value: {:.4f}'.format(p_val))
 
     P-value: 0.8493
 
-
-### Example 2: Two-Sample T-Test (Independent)
+#### Example 2: Two-Sample T-Test (Independent)
 
 Used to determine if the mean flipper length of Adelie penguins is significantly different from Gentoos.
 * **Null Hypothesis ($H_0$):** There is no statistically significant difference between the means of the two populations being compared
@@ -313,7 +314,7 @@ print('P-value: {:.4f}'.format(p_val))
     P-value: 0.0000
 
 
-### Example 3: One-Sample Z-Test
+#### Example 3: One-Sample Z-Test
 ```python
 from scipy import stats
 
