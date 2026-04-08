@@ -246,7 +246,9 @@ print('Margin of error: {:.2f}%'.format(moe_mean))
       **Calculating $\hat{p_0}$ example:**
       * Random sample of 50 employees in each office
       * 67 percent report being satisfied with their job at the London office
+         * 0.67 * 50 = 33.5
       * 57 percent report being satisfied with their job at the Beijing office.
+         * 0.57 * 50 = 28.5
       * Is there a difference in the proportion of satisfied employees in London and Beijing offices?
           
         $\Large \hat{p_0} = \frac{x_1 + x_2}{n_1 + n_2} = \frac{33.5 + 28.5}{50 + 50} = \frac{62}{100} = 0.62$   
