@@ -252,7 +252,14 @@ print('Margin of error: {:.2f}%'.format(moe_mean))
         $\Large \hat{p_0} = \frac{x_1 + x_2}{n_1 + n_2} = \frac{33.5 + 28.5}{50 + 50} = \frac{62}{100} = 0.62$   
 
 
-        $\Large z = \frac{0.67 - 0.57}{\sqrt{0.62(1 - 0.62) \left( \frac{1}{50} + \frac{1}{50} \right)}} \approx 1.03$        
+        $\Large z = \frac{0.67 - 0.57}{\sqrt{0.62(1 - 0.62) \left( \frac{1}{50} + \frac{1}{50} \right)}} \approx 1.03$
+
+```python
+2 * (1 - stats.norm.cdf(abs(1.03)))
+```
+The p-value of `0.30301000557668734`, or 30.3 percent is greater than the significance level of 0.05, or five percent.  There is not a statistically significant difference between the proportion 
+of satisfied employees in the London office and the Beijing office.  
+
 
 **Left-Tailed Test**
 * **Hypothesis:** $H_a: \mu < \mu_0$  
