@@ -132,7 +132,7 @@ outliers = penguins[abs(penguins['mass_z']) > 3]
 
 Calculated by determining the mean, finding the sum of squared differences from that mean, dividing by the sample size minus one ($n-1$), and taking the square root.
 
-$$s = \sqrt{\frac{\sum (x_i - \bar{x})^2}{n - 1}}$$
+$\Large s = \sqrt{\frac{\sum (x_i - \bar{x})^2}{n - 1}}$
 
 **Variable Definitions:**
 * $s$: The sample standard deviation.
