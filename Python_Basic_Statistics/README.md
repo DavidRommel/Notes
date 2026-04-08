@@ -228,7 +228,7 @@ print('Margin of error: {:.2f}%'.format(moe_mean))
 ### Test Types
 #### Z-test
 * Used when the population standard deviation is **known**.
-* The test statistic is a Z-score, which indicates how many standard deviations below or above the population mean a data point is.
+* The test statistic is a z-score, which indicates how many standard deviations below or above the population mean a data point is.
 
    $\Large z = \frac{\bar{x} - \mu}{\frac{\sigma}{\sqrt{n}}}$
    * $\bar{x}$ is the sample mean
@@ -242,6 +242,17 @@ print('Margin of error: {:.2f}%'.format(moe_mean))
    * **Denominator:** The square root contains the standard error of the difference.
       * $\hat{p}_0$: This is the pooled proportion, calculated from both samples combined.
       * $n_1, n_2$: These are the respective sample sizes.
+     
+      **Calculating $\hat{p_0}$ example:**
+      * Random sample of 50 employees in each office
+      * 67 percent report being satisfied with their job at the London office
+      * 57 percent report being satisfied with their job at the Beijing office.
+      * Is there a difference in the proportion of satisfied employees in London and Beijing offices?
+          
+        $\Large \hat{p_0} = \frac{x_1 + x_2}{n_1 + n_2} = \frac{33.5 + 28.5}{50 + 50} = \frac{62}{100} = 0.62$   
+
+
+        $\Large z = \frac{0.67 - 0.57}{\sqrt{0.62(1 - 0.62) \left( \frac{1}{50} + \frac{1}{50} \right)}} \approx 1.03$        
 
 **Left-Tailed Test**
 * **Hypothesis:** $H_a: \mu < \mu_0$  
@@ -267,8 +278,6 @@ print('Margin of error: {:.2f}%'.format(moe_mean))
    * $\bar{X_1}$ and $\bar{X_2}$ are the sample means of your two groups
    * $n_1$ and $n_2$ are the sample sizes of your two groups
    * $s_1$ and $s_2$ are the sample standard deviations of your two groups
-
- #### Z-test (Proportions)
 
 
 ### Error Types
