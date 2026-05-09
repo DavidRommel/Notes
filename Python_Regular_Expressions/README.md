@@ -292,11 +292,6 @@ re.search(pattern, text)
 ```
 
     before tab	after tab
-
-
-
-
-
     <re.Match object; span=(10, 16), match='\tafter'>
 
 
@@ -311,11 +306,6 @@ re.search(pattern, text)
 
     one
     two
-
-
-
-
-
     <re.Match object; span=(3, 7), match='\ntwo'>
 
 
@@ -327,7 +317,6 @@ re.search(pattern, text)
 pattern = r'self'
 len(re.findall(pattern, emerson, flags = re.I))
 ```
-
 
 
 
