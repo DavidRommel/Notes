@@ -19,6 +19,7 @@ This repository contains personal notes and code snippets for data analysis, foc
  * Linear Regression
  * Multiple Regression
  * Logistic Regression
+ * [Regular Expressions]()
  * Supervised Machine Learning
  * Unsupervised Machine Learning
  * Object-Oriented Programming
