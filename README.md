@@ -19,7 +19,7 @@ This repository contains personal notes and code snippets for data analysis, foc
  * Linear Regression
  * Multiple Regression
  * Logistic Regression
- * [Regular Expressions]()
+ * [Regular Expressions](https://github.com/DavidRommel/Notes/blob/main/Python_Regular_Expressions/README.md)
  * Supervised Machine Learning
  * Unsupervised Machine Learning
  * Object-Oriented Programming
