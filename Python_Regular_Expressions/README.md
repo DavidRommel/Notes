@@ -1,5 +1,50 @@
 # Learning Regular Expressions
 
+### Table of Contents
+* [1. Get Started with Regular Expressions](#1-get-started-with-regular-expressions)
+    * [Expression Flags](#expression-flags)
+    * [findall()](#findall)
+    * [search()](#search)
+    * [match()](#match)
+* [2. Characters](#2-characters)
+    * [Literal Characters](#literal-characters)
+    * [Metacharacters](#metacharacters)
+    * [Wildcard metacharacter](#wildcard-metacharacter)
+    * [Escaping Metacharacters](#escaping-metacharacters)
+    * [Other Special Characters](#other-special-characters)
+    * [Challenge: Characters](#challenge-characters)
+* [3. Character Sets](#3-character-sets)
+    * [Define a character set](#define-a-character-set)
+    * [Character ranges](#character-ranges)
+    * [Negative character sets](#negative-character-sets)
+    * [Metacharacters inside characters sets](#metacharacters-inside-characters-sets)
+    * [Shorthand character sets](#shorthand-character-sets)
+    * [Challenge: Character sets](#challenge-character-sets)
+* [4. Repetition](#4-repetition)
+    * [Repetition metacharacters](#repetition-metacharacters)
+    * [Quantified repetition](#quantified-repetition)
+    * [Greedy expressions](#greedy-expressions)
+    * [Lazy expressions](#lazy-expressions)
+    * [Challenge: Repetition](#challenge-repetition)
+* [5. Grouping and Alternation](#5-grouping-and-alternation)
+    * [Grouping metacharacters](#grouping-metacharacters)
+    * [Alternation metacharacters](#alternation-metacharacters)
+    * [Efficiency when using alternation](#efficiency-when-using-alternation)
+    * [Challenge: Grouping and alternation](#challenge-grouping-and-alternation)
+* [6. Anchors](#6-anchors)
+    * [Start and end anchors](#start-and-end-anchors)
+    * [Line breaks and multiline mode](#line-breaks-and-multiline-mode)
+    * [Word boundaries](#word-boundaries)
+    * [Challenge: Anchors](#challenge-anchors)
+* [7. Capturing Groups and Backreferences](#7-capturing-groups-and-backreferences)
+    * [Captures and backreferences](#captures-and-backreferences)
+    * [Backreferences to optional expressions](#backreferences-to-optional-expressions)
+    * [Find and replace using backreferences](#find-and-replace-using-backreferences)
+    * [Non-capturing group expressions](#non-capturing-group-expressions)
+    * [Challenge: Backreferences](#challenge-backreferences)
+* [8. Lookaround Assertions](#8-lookaround-assertions)
+    * [Positive lookahead assertions](#positive-lookahead-assertions)
+    * [Negative lookahead assertions](#negative-lookahead-assertions)
 
 ```python
 import numpy as np
@@ -20,7 +65,7 @@ with open('data/us_presidents.csv') as file:
 ```
 
 ## 1. Get Started with Regular Expressions
-
+---
 ### Expression Flags
 
 Indicates different modes that we are using with our regular expressions.
@@ -140,7 +185,7 @@ print(re.match(pattern, text))
 
 
 ## 2. Characters
-
+---
 ### Literal Characters
 * regular expressions are case sensitive by default
 * spaces are treated as characters
@@ -340,7 +385,7 @@ words.value_counts()
 
 
 ## 3. Character Sets
-
+---
 ### Define a character set
 * Will match any one of several characters
     * But only **one** character
@@ -608,7 +653,7 @@ re.findall(pattern, emerson)
 
 
 ## 4. Repetition
-
+---
 ### Repetition metacharacters
 * `*` preceding item, zero or more times
 * `+` preceding item, one or more times
@@ -1005,6 +1050,7 @@ re.findall(pattern, emerson)
 
 
 ## 5. Grouping and Alternation
+---
 * `(` start grouped expression
 * `)` end grouped expression
 
@@ -1377,7 +1423,7 @@ for item, count in results.items():
 
 
 ## 6. Anchors
-
+---
 ### Start and end anchors
 * expressions which specify a starting or an ending point that needs to be considered when searching for a pattern
 * reference a position, not an actual character
@@ -1783,7 +1829,7 @@ re.findall(pattern, emerson)
 
 
 ## 7. Capturing Groups and Backreferences
-
+---
 ### Captures and backreferences
 * Whenever you group an expression the engine captures it by default
     * Matched data in parentheses is stored fro later use
@@ -2105,7 +2151,7 @@ for match in re.finditer(pattern, presidents, flags = re.MULTILINE):
 
 
 ## 8. Lookaround Assertions
-
+---
 ### Positive lookahead assertions
 * Returns true if a grouped expression is ahead of the current position
     * only return True/False, not matched or captured text
