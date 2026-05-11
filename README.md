@@ -21,6 +21,9 @@ This repository contains personal notes and code snippets for data analysis, foc
  * Logistic Regression
  * [Regular Expressions](https://github.com/DavidRommel/Notes/blob/main/Python_Regular_Expressions/README.md)
  * Supervised Machine Learning
+ * SQL - SQLite
+ * SQL - SQL Server
+ * SQL - PostgreSQL
  * Unsupervised Machine Learning
  * Object-Oriented Programming
 
