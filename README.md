@@ -38,6 +38,8 @@ This repository contains personal notes and code snippets for data analysis, foc
  
 **SQL**
 * [Create Row Numbers](https://github.com/DavidRommel/Notes/blob/main/SQL_Create_Row_Numbers/README.md)
+* [Microsoft SQL Server - Query a List of Tables and Columns]()
+* [SQLite - Query a List of Tables and Columns]()
 
 **DAX** 
 * Basic Filtering and Aggregation
