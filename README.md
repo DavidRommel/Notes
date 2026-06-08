@@ -39,7 +39,7 @@ This repository contains personal notes and code snippets for data analysis, foc
 **SQL**
 * [Create Row Numbers](https://github.com/DavidRommel/Notes/blob/main/SQL_Create_Row_Numbers/README.md)
 * [Microsoft SQL Server - Query a List of Tables and Columns](https://github.com/DavidRommel/Notes/blob/main/Microsoft_SQL_Server_Query_a_List_of_Tables_and_Columns/README.md)
-* [SQLite - Query a List of Tables and Columns]()
+* [SQLite - Query a List of Tables and Columns](https://github.com/DavidRommel/Notes/blob/main/SQLite_Query_a_List_of_Tables_and_Columns/README.md)
 
 **DAX** 
 * Basic Filtering and Aggregation
